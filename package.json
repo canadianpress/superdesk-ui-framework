@@ -4,7 +4,7 @@
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/superdesk/superdesk-ui-framework.git"
+    "url": "https://github.com/canadianpress/superdesk-ui-framework.git"
   },
   "main": "dist/superdesk-ui.bundle.js",
   "types": "react/index.d.ts",
