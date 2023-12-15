@@ -39,8 +39,8 @@ export const Tag = ({ text, keyValue, shade, shape, readOnly, onClick, label }: 
                     <span className='tag-label--text'>
                         {text}
                     </span>
-                    {!readOnly ? <button className='tag-label__remove' onClick={onClick}>
-                        Remove tag
+                    {!readOnly ? <button className='tag-label__remove' onClick={onClick} aria-label="Remove Tag">
+                        <i className='icon-close-small'></i>
                     </button> : null}
                 </span>
             }
