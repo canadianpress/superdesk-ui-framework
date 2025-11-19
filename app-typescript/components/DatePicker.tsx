@@ -308,7 +308,7 @@ export class DatePickerISO extends React.PureComponent<IDatePickerISO> {
     render() {
         return (
             <DatePicker
-                value={new Date(this.props.value)}
+                value={new Date(`${this.props.value}T00:00:00`)}
                 onChange={(value) => {
                     if (value === null) {
                         this.props.onChange('');
